@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Protest+Guerrilla&family=Reem+Kufi+Fun:wght@400..700&display=swap');
+*{  
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #535151  ;
+}
+.fundo{
+    background-image: url(../image/tela-de-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110dvh;
+}
+
+.topo{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+}
+.logo img{
+    margin: 5px 10px;
+    width: 70px;
+    
+}
+.sub-logo{
+    font-family: 'Times New Roman', Times, serif;
+    flex:30% ;
+    color: white;
+    letter-spacing: 5px;
+}
+.botoes a{
+    flex: 35%;
+    text-decoration: none;
+    color: azure;
+    padding: 10px;
+    margin: 10px;
+}
+.botoes a:hover{
+    text-decoration: underline ;
+    text-shadow: 1px 2px 3px black ;
+    opacity: 0.6;
+}
+#botao-principal{
+    border: 1px solid white;
+    padding: 10px 30px;
+    
+}
+.principal{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+  
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    font-size: 4rem;
+    font-family: "Cairo Play", sans-serif;
+    color: white;
+    text-shadow: 1px 2px 8px black;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.paragrafo{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: "Reem Kufi Fun", sans-serif;
+    text-shadow: 3px 3px 7px black;
+}
+
+.servicos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    margin: 20px;
+}
+.borda{
+    border: 2px solid white;
+}
+.servicos p{
+    color: white;
+}
+.botao-grid{
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 20px solid white;
+    border: 1px solid;
+    font-size: large;
+}
+ .botao-grid:hover{
+    background-color: #555;
+}
+.imagem-quadro img{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+.anuncio{
+    margin: 70px;
+}
+.titulo2{
+    font-size: 2.5rem;
+    font-family: "Cairo Play", sans-serif;
+    color: white;
+    letter-spacing: 5px;
+}
+.paragrafo2{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: "Reem Kufi Fun", sans-serif;
+    text-shadow: 3px 3px 7px black;
+    margin: 20px 0 60px 0;
+}
+.titulo3 {
+    font-size: 30px;
+    text-decoration: overline; 
+    font-family: "Cairo Play", sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.rodape{
+    background-color: #444343c2;
+    width: 97%;
+    height: 400px;
+    display: flex;
+    margin: 20px;
+}
+.endereco{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 90px 300px;
+}
+.endereco p{
+    text-align: justify;
+    color: white;
+}
+.paragrafo3 {
+    color: rgb(245, 220, 170);
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Reem Kufi Fun", sans-serif;
+    text-shadow: 1px 2px 3px black;
+    margin: 20px 5px ;
+}
+.endereco img{
+    margin: 20px;
+    width: 60px;
+    
+}
+.email{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: end;
+    justify-content: center;
+}
+.email p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.rodape-1{
+    flex-direction: row;
+}
+.redes-sociais{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+}
+.redes-sociais img{
+    margin: 25px;
+    width: 70px;
+    object-fit: cover;
+    cursor: pointer;
+}
